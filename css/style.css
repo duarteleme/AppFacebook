@@ -1,0 +1,117 @@
+    @charset "UTF-8";
+    @import url(https://fonts.googleapis.com/css?family=Cookie);
+
+    body{
+        background:#f8f8f8 !important;
+    }
+    
+    a{
+        text-decoration:none !important;
+    }
+    
+    .conteudo{
+        width:800px;
+        margin:50px auto 0px;
+        background:white;
+    }
+
+    .continuar{
+        font-size:25px !important;
+        text-transform:uppercase;
+    }
+
+    .fundo{
+        position:absolute;
+        z-index: 10;
+    }
+    .presente{
+        position:absolute;
+        z-index:20;
+        right:50px;
+        bottom: 106px;
+    }
+
+    .coracao{
+        position:absolute;
+        z-index:20;
+        right: 298px;
+        bottom: 114px;
+    }
+
+
+    .card {
+        width: 800px;
+        height: 420px;
+        /* background:url(../img/bg.jpg); */
+        color:#FFF;
+        position:relative;
+    }
+
+    #splash {
+        width: 800px;
+        height: 420px;
+        background:url(../img/splash.jpg);
+        color:#FFF;
+    }
+
+    .foto{margin-top: 81px;margin-left: 48px;width: 317px;position: absolute;z-index: 0;}
+
+    .logo{/* margin-top: 97px; */margin-left: 455px;/* width:105px; *//* position: absolute; */}
+
+
+    .foto img{
+        width:100%;
+        /* border-radius:6px; */
+    }
+
+    .titulo{
+        font-family: 'Cookie', cursive;
+        font-size: 60px;
+        text-align:center;
+        /* margin-top: 207px; */
+        /* background: yellow; */
+        height: 45px;
+        padding: 10px;
+        position: absolute;
+        width: 403px;
+        color: #285495;
+        text-align: center;
+        line-height: 27px;
+        /* margin-left: 85px; */
+        /* letter-spacing: -1px; */
+        z-index: 30;
+        position: absolute;
+        left: 0;
+        bottom: 12px;
+    }
+
+    .titulo b{
+        color: #285495;
+    }
+
+    #capture{
+        width:800px;
+        background: #285495;
+        text-align:center;
+        padding:20px 0;
+        cursor:pointer;
+    }
+
+    .loaderdiv{
+        background: #E4E2E2;
+        padding: 20px 20px;
+        border-radius:0px 0px 6px 6px;
+        display: none;
+    }
+
+    .loaderdiv img{
+        width:100%;
+        height:15px;
+        opacity:0.2 !Important;
+    }
+
+    #compartilhar{
+        width:800px;
+        text-align:center;
+        cursor:pointer;
+    }
