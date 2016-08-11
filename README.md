@@ -1,7 +1,7 @@
 # AppFacebook
 Aplicativo que pega a foto do usuário e faz uma pequena interação para ser postado pelo usuário.
 
-## Versão do PHP
+## Versão do PHP 5.4
 Certifique-se de  utilizar a versão correta (5.4), caso precise atualize o .htaccess do dominio.
 ```HTML
 AddHandler application/x-httpd-php54 .php
