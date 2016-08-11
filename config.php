@@ -1,5 +1,12 @@
 <?php 
-	$url="http://www.midiano.com.br/projetos/xoconta";
-	$app="1728922457355797";
-	$app_secret="139dc995cdaf33c5e1dd29fcf024e877";
+	// CONFIGURAÇÔES
+	$url="http://www.marianaalves.psc.br/app";
+	$app="284040181965648";
+	$app_secret="38d1dbcfb30e1c4b33801ad5bc620610";
+	$nomefanpage = "Psicóloga Mariana Alves";
+	$fanpagelike = "psicologa.marianaalves";
+
+	//TEXTOS
+	$titulo = "Descubra o que seu pai mais gosta em você!";
+	$descricao = "Clique aqui para descobrir";
 ?>

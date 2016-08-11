@@ -11,19 +11,19 @@ include("config.php");
 <!doctype html>
 <html xmlns:fb="http://www.facebook.com/2008/fbml">
   <head>
-    <title>Descubra qual será seu presente no dia dos Namorados!</title>
+    <title><?php echo $titulo; ?></title>
     <?php if (@$_GET['u'] != "") { ?>
       <?php if ($_SERVER['HTTP_REFERER'] == "https://www.facebook.com/") { ?>
       <meta http-equiv="refresh" content="0; url=<?php echo $url ?>/index.php">
       <?php } ?>
       <meta property="og:image" content="<?php echo $url; ?>/gerar/imagens/<?php echo base64_decode($_GET['u']); ?>.jpg"/>
       <?php } else { ?>
-      <title>Descubra qual será seu presente no dia dos Namorados!</title>
+      <title><?php echo $url; ?></title>
       <meta property="og:image" content="<?php echo $url; ?>/img/splash.jpg"/>
     <?php } ?>
-    <meta property="og:title" content="Descubra qual será seu presente no dia dos Namorados">
-    <meta property="og:description" content="Clique aqui, para descobrir qual será seu presente!">
-    <meta name="description" content="Clique aqui e descubra qual será seu presente no dia dos Namorados">
+    <meta property="og:title" content="<?php echo $titulo; ?>">
+    <meta property="og:description" content="<?php echo $descricao; ?>">
+    <meta name="description" content="<?php echo $descricao; ?>">
     <meta property="og:type" content="website">
     <meta property="og:image:type" content="image/jpeg">
     <meta property="og:image:width" content="800">
@@ -50,7 +50,7 @@ include("config.php");
           <h4 class="modal-title">Para continuar curta a Fanpage abaixo</h4>
         </div>
         <div class="modal-body">
-          <div class="fb-page" data-href="https://www.facebook.com/xoconta" data-width="500" data-height="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/xoconta"><a href="https://www.facebook.com/xoconta">Xo conta</a></blockquote></div></div>
+          <div class="fb-page" data-href="https://www.facebook.com/<?php echo $fanpagelike; ?>" data-width="500" data-height="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/<?php echo $fanpagelike; ?>"><a href="https://www.facebook.com/<?php echo $fanpagelike; ?>"><?php echo $nomefanpage; ?></a></blockquote></div></div>
         </div>
           <button type="button" class="btn btn-primary btn-lg btn-block" data-dismiss="modal">Continuar</button>
       </div>
